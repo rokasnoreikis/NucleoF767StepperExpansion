@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SSM3K339R,LF
+D Trans MOSFET N-CH Si 40V 2A 3-Pin SOT-23F T/R
+K
+F https://www.arrow.com/en/products/ssm3k339rlf/toshiba
+$ENDCMP
+#
+#End Doc Library

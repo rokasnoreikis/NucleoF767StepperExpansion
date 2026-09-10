@@ -1,0 +1,236 @@
+(footprint "SOTFL95P240X88-3N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SOT-23F (2-3Z1A)_1")
+	(tags "MOSFET (N-Channel)")
+	(property "Value" "SOTFL95P240X88-3N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "101422b5-141a-47cd-9c99-0ec7492b9ec1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18103a90-4357-47c3-8308-f2f9f7e738e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8695c204-9d31-496f-99c9-63cc11f6e926")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Reference" "Q**"
+		(at 0 -3 0)
+		(layer "F.SilkS")
+		(uuid "da5a6060-b0c9-4846-8199-4427b9d5b637")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.475 -1.51)
+		(end -0.9 -1.51)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e95a4417-a5ec-49c4-a4b7-046f9b570779")
+	)
+	(fp_line
+		(start -0.55 -1.45)
+		(end 0.55 -1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f68391fd-83b5-412f-af9e-370f6e6dc2b5")
+	)
+	(fp_line
+		(start -0.55 1.45)
+		(end -0.55 -1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2f09b0c8-b53e-4c9f-858d-506aceaad7e3")
+	)
+	(fp_line
+		(start 0.55 -1.45)
+		(end 0.55 1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "124061cd-84a8-4a33-a554-ef48fd4a5026")
+	)
+	(fp_line
+		(start 0.55 1.45)
+		(end -0.55 1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9832682b-501c-49d2-9251-75cdf3836cd3")
+	)
+	(fp_line
+		(start -1.625 -1.7)
+		(end 1.625 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "97252bb6-1cc9-40df-9846-da3528c00c40")
+	)
+	(fp_line
+		(start -1.625 1.7)
+		(end -1.625 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c7628c9b-5ef1-476d-bae6-22d6288b2bdb")
+	)
+	(fp_line
+		(start 1.625 -1.7)
+		(end 1.625 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "caa872ba-90bc-4b89-a6bc-b26878e134db")
+	)
+	(fp_line
+		(start 1.625 1.7)
+		(end -1.625 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d08fbc0f-cc64-42cc-aaad-bfe6462b4de1")
+	)
+	(fp_line
+		(start -0.9 -1.45)
+		(end 0.9 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2ab69e5c-4661-491b-a6f1-50ed12d17fde")
+	)
+	(fp_line
+		(start -0.9 -0.5)
+		(end 0.05 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "72680088-3ff1-401a-af26-fa37cb63bcd3")
+	)
+	(fp_line
+		(start -0.9 1.45)
+		(end -0.9 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ad3d80f7-1f64-4302-8ac0-e480db700819")
+	)
+	(fp_line
+		(start 0.9 -1.45)
+		(end 0.9 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6442ff95-ab0e-49d4-80d2-1a3639a6eebe")
+	)
+	(fp_line
+		(start 0.9 1.45)
+		(end -0.9 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cd2c0af5-2dd8-4374-a300-1bbb3ff78eea")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d559b711-b5ad-42f0-937e-e66153d017e8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.188 -0.95)
+		(size 0.575 0.62)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "13d534c7-d32b-4bdf-893c-a4529d437aa6")
+	)
+	(pad "2" smd rect
+		(at -1.188 0.95)
+		(size 0.575 0.62)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "82fb82fe-59fa-40d6-bb02-99e13287f4b9")
+	)
+	(pad "3" smd rect
+		(at 1.188 0)
+		(size 0.575 0.62)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "84451c1c-9498-4db7-b6ae-ddd41319208d")
+	)
+	(embedded_fonts no)
+	(model "SSM3K339R,LF.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

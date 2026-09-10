@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "NucleoF767StepperExpansion_Footprints") (type "KiCad") (uri "${KIPRJMOD}/ComponentsLib/NucleoF767StepperExpansion_Footprints.pretty") (options "") (descr ""))
+)
