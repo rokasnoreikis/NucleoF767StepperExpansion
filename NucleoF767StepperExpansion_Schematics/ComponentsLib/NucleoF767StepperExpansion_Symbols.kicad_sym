@@ -31,7 +31,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "1715734"
+		(property "Footprint" "NucleoF767StepperExpansion_Footprints:1715734"
 			(at 2.54 -17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -552,7 +552,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "TSW-117-XX-YY-S"
+		(property "Footprint" "NucleoF767StepperExpansion_Footprints:TSW-117-XX-YY-S"
 			(at -12.446 -48.006 0)
 			(show_name no)
 			(do_not_autoplace no)

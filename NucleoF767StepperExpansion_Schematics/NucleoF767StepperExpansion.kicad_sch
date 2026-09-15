@@ -175,7 +175,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "1715734"
+			(property "Footprint" "NucleoF767StepperExpansion_Footprints:1715734"
 				(at 2.54 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -696,7 +696,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "TSW-117-XX-YY-S"
+			(property "Footprint" "NucleoF767StepperExpansion_Footprints:TSW-117-XX-YY-S"
 				(at -12.446 -48.006 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1227,6 +1227,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 132.08 17.78)
@@ -1451,6 +1566,22 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f102e5e4-2a10-46dc-a16f-1964a98825eb")
+	)
+	(no_connect
+		(at 259.08 86.36)
+		(uuid "028207c6-84db-4232-9e8b-1a72dab815b0")
+	)
+	(no_connect
+		(at 259.08 106.68)
+		(uuid "05880ea0-e86e-4cc8-a2c9-1c582230fc24")
+	)
+	(no_connect
+		(at 259.08 109.22)
+		(uuid "06c84f14-f8e2-40d9-a49f-9a544fd00012")
+	)
+	(no_connect
+		(at 259.08 83.82)
+		(uuid "4a205794-3237-4b5a-bd0d-727e95d10f8c")
 	)
 	(wire
 		(pts
@@ -3850,7 +3981,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "1715734"
+		(property "Footprint" "NucleoF767StepperExpansion_Footprints:1715734"
 			(at 95.25 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4496,6 +4627,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 33.02 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1dbbb5eb-dc22-4608-976a-b02c2daf8cdd")
+		(property "Reference" "#PWR027"
+			(at 33.02 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a34e625-df9b-4d1f-9728-b80cde1053a7")
+		)
+		(instances
+			(project "NucleoF767StepperExpansion"
+				(path "/bc8f7c8e-bae0-472c-af5a-f214b9a78cc2"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 39.37 165.1 0)
 		(unit 1)
 		(body_style 1)
@@ -4926,7 +5135,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "1715734"
+		(property "Footprint" "NucleoF767StepperExpansion_Footprints:1715734"
 			(at 207.01 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -5527,7 +5736,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "TSW-117-XX-YY-S"
+		(property "Footprint" "NucleoF767StepperExpansion_Footprints:TSW-117-XX-YY-S"
 			(at 246.634 116.586 0)
 			(hide yes)
 			(show_name no)
@@ -5956,7 +6165,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "1715734"
+		(property "Footprint" "NucleoF767StepperExpansion_Footprints:1715734"
 			(at 95.25 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -7551,6 +7760,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 33.02 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d2066c3-d3cd-49d7-9815-4a0603ce48be")
+		(property "Reference" "#FLG01"
+			(at 33.02 32.385 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 33.02 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 33.02 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ee5b7a71-09cd-4a5c-be74-001708f5ce38")
+		)
+		(instances
+			(project "NucleoF767StepperExpansion"
+				(path "/bc8f7c8e-bae0-472c-af5a-f214b9a78cc2"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 215.9 128.27 0)
 		(unit 1)
@@ -8049,7 +8336,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "1715734"
+		(property "Footprint" "NucleoF767StepperExpansion_Footprints:1715734"
 			(at 57.15 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -8820,7 +9107,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "1715734"
+		(property "Footprint" "NucleoF767StepperExpansion_Footprints:1715734"
 			(at 207.01 33.02 0)
 			(hide yes)
 			(show_name no)
